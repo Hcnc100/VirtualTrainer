@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_splash">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.d34th.nullpointer.virtual.trainer.ui.fragments.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_fragmentCamera"
+            app:destination="@id/fragmentCamera" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_camera"
+        android:id="@+id/fragmentCamera"
+        android:name="com.d34th.nullpointer.virtual.trainer.ui.fragments.camera.FragmentCamera"
+        android:label="FragmentCamera" >
+        <argument
+            android:name="exercise"
+            app:argType="com.d34th.nullpointer.virtual.trainer.model.Exercise" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_registry"
+        android:id="@+id/fragmentRegistry"
+        android:name="com.d34th.nullpointer.virtual.trainer.ui.fragments.registry.FragmentRegistry"
+        android:label="FragmentRegistry" >
+        <action
+            android:id="@+id/action_fragmentRegistry_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_settings"
+        tools:layout="@layout/settings_fragment"
+        android:name="com.d34th.nullpointer.virtual.trainer.ui.fragments.settings.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        tools:layout="@layout/splash_fragment"
+        android:id="@+id/nav_splash"
+        android:name="com.d34th.nullpointer.virtual.trainer.ui.fragments.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_nav_splash_to_fragmentRegistry"
+            app:destination="@id/fragmentRegistry"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_nav_splash_to_nav_home"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+</navigation>

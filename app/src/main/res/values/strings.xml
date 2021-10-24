@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Entrenador Virtual</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+
+
+    <string name="ayuda_camara_start">Para comenzar a usar la realidad aumentada, necesita tener una superficie lisa donde poner el modelo, y apuntar la cámara, la aplicación le avisara cuando es viable poner un objeto.</string>
+    <string name="ayuda_camara_render">El botón de play inicia la animación (el botón central).\nCuando se esté animando, puede seleccionar el botón de pausa para parar la animación en cualquier momento. </string>
+    <string name="ayuda_menu">Debes seleccionar una opción de ejercicio presionando sobre ella.</string>
+    <string name="squats_descripcion">Una sentadilla es un ejercicio físico que se lleva a cabo para desarrollar los músculos y fortalecer los tendones y los ligamentos de las piernas. También permite tonificar los glúteos y aporta beneficios a la cadera.</string>
+    <string name="squats">Sentadillas</string>
+    <string name="abdominales">Abdominales</string>
+    <string name="abdominales_descripcion">Los ejercicios abdominales sirven para fortalecer los músculos abdominales. Tonificar el abdomen no sólo favorece en la estética, sino que además se logra un organismo mucho más enérgico y libre de enfermedades. Los abdominales son un grupo de músculos especiales y forman la parte central del cuerpo.</string>
+    <string name="abdominales_cycle">Abdominales de Bicicleta</string>
+    <string name="abdominales_cycle_descripcion">Son buena forma de desarrollar nuestros abdominales oblicuos, frontal y mejorar nuestra coordinación corporal.Son una buena forma de congestionar también la zona abdominal, aunque no nos engañemos, al ser un movimiento abdominal más complejo a nivel de ejecución que otros, nos serán más difíciles de realizar..</string>
+    <string name="saltos_laterales">Saltos Laterales</string>
+    <string name="saltos_laterales_descripcion">Se trata de saltar abriendo las piernas y subiendo los brazos hasta que las manos se toquen sobre la cabeza y saltar de nuevo uniendo los pies y colocando los brazos a los lados en paralelo al cuerpo.</string>
+    <string name="plancha">Plancha</string>
+    <string name="plancha_descripcion">Es un ejercicio isométrico de torso que consiste en mantener una posición difícil por un periodo de tiempo prolongado. La plancha más común es la plancha frontal o de antebrazo, la cual se hace en una posición de lagartija con el peso corporal apoyado sobre los antebrazos, codos y dedos de los pies.</string>
+    <string name="lagartijas">Lagartijas</string>
+    <string name="lagartijas_descripcion">La flexión de codos es un ejercicio que involucra los codos, también conocida como lagartijas, plancha, pechada o simplemente flexión, es un ejercicio físico realizado estando en posición inclinada, recostado hacia abajo, levantando el cuerpo únicamente con los brazos y bajando de nuevo al suelo.</string>
+    <string name="night">Buenas Noches</string>
+    <string name="after">Buenas Tardes</string>
+    <string name="morning">Buenos Dias</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in tincidunt tortor. Aliquam venenatis tortor at interdum luctus. Nunc varius massa quis rutrum facilisis. Proin blandit ipsum vel accumsan dapibus. Pellentesque in erat mollis, iaculis lacus eu, suscipit mi.</string>
+    <string name="text_hint_get_name">Proporcione su nombre</string>
+    <string name="text_title_registry">Registro</string>
+    <string name="text_button_next">Siguiente</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+</resources>
